@@ -340,3 +340,118 @@ body {
 .present .designer a {
   font-weight: bold;
 }
+@media (max-width: 900px) {
+    .present .fields {
+        flex-direction: column;
+        width: 98%;
+        align-items: center;
+    }
+
+    .present .fields .left,
+    .present .fields .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .present .fields .right {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .present .fields .right img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .present .big__message,
+    .present .few__message {
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .present .nav_bar {
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px;
+        align-items: flex-start;
+    }
+
+    .present .nav_bar .logo {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    .present .nav_bar .onglets {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .present .nav_bar .onglets .onglet {
+        margin: 5px 0;
+        min-width: unset;
+        width: 100%;
+        text-align: left;
+    }
+
+    .present .fields {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .present .big__message {
+        font-size: 2rem;
+    }
+
+    .present .img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    .present {
+        padding: 0;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .present .fields {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2px;
+    }
+
+    .present .fields .left,
+    .present .fields .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .present .big__message {
+        font-size: 1.2rem;
+        padding: 0 2px;
+    }
+
+    .present .few__message {
+        font-size: 1rem;
+        padding: 0 2px;
+    }
+
+    .btn {
+        font-size: 1rem;
+        width: 90vw;
+        min-width: 120px;
+    }
+
+    .present .img {
+        width: 100%;
+    }
+
+    .present .designer {
+        font-size: 0.7rem;
+        left: 2%;
+        bottom: 0.5%;
+    }
+}
